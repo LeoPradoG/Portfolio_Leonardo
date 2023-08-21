@@ -1,0 +1,76 @@
+.body{
+
+    background-color: #0a1930;
+
+}
+
+.container{
+    
+    background-color: #7f7f7f3b;
+    border-radius: 25px;
+    width: 100%;
+    min-height: 100%;
+
+
+}
+
+.espaco{
+
+    height: 25px
+
+}
+
+.espaco_pequeno{
+
+    height: 10px
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(71, 108, 163);
+    box-shadow: 0 0 20px rgba(184, 184, 184, 0.6);
+    background-image: url('../img/Leonardo.jpeg');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s;
+}
+
+
+.foto:hover{
+
+    transform: scale(0.9);
+    
+}
+
+
+
+.foto1{
+
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid rgb(71, 108, 163);
+    box-shadow: 0 0 20px rgba(90, 155, 252, 0.6);
+    background-image: url('../img/Portal_Relatórios.png');
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.foto1:hover{
+    transform: scale(0.9);
+}
+
+.centralizar{
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
